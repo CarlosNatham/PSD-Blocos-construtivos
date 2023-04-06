@@ -1,0 +1,54 @@
+library IEEE;
+use IEEE.std_logic_1164.all;
+
+entity projeto_1 is
+port(	i_CLR:	in std_logic;		
+		i_SET:	in std_logic;
+		i_LD:		in std_logic;
+		i_SHL:	in std_logic;
+		i_SHLIN:	in std_logic;
+		i_I0:		in std_logic;
+		i_I1:		in std_logic;
+		i_I2:		in std_logic;
+		i_I3:		in std_logic;
+		i_I4:		in std_logic;
+		i_I5:		in std_logic;
+		i_I6:		in std_logic;
+		i_I7:		in std_logic;
+		o_Q0:		in std_logic;
+		o_Q1:		in std_logic;
+		o_Q2:		in std_logic;
+		o_Q3:		in std_logic;
+		o_Q4:		in std_logic;
+		o_Q5:		in std_logic;
+		o_Q6:		in std_logic;
+		o_Q7:		in std_logic;
+end projeto_1;
+
+architecture arch_2 of projeto_1 is
+	
+	component logic_comb is
+	port(	i_CLR:	in std_logic;		
+			i_SET:	in std_logic;
+			i_LD:		in std_logic;
+			i_SHL:	in std_logic;
+			o_S0:		out std_logic;
+			o_S1:		out std_logic;
+			o_S2:		out std_logic);
+	end component;
+	
+	signal w_S0, w_S1, w_S2: std_logic;
+	
+	begin 
+	
+	u_0: logic_comb port map(	i_CLR => i_CLR,
+										i_SET => i_SET,
+										i_LD 	=>	i_LD,
+										i_SHL	=> i_SHL,
+										o_S0 	=>	w_S0,
+										o_S1	=> w_S1,
+										o_S2	=> w_S2);
+										
+	
+	
+	

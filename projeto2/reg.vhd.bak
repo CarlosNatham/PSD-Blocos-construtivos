@@ -1,0 +1,8 @@
+library ieee;
+use ieee.std_logic_1164.all;
+
+entity reg_op is
+port(	i_I0:		in std_logic_vector (7 downto 0);	-- entrada regsitrador
+		i_EN:		in std_logic;	-- enable
+		i_CLK:	in std_logic;	-- clock
+		o_Q1:		out std_logic;	-- saída reg

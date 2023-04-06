@@ -1,0 +1,105 @@
+{
+	"partitions" : [
+		{
+			"name" : "Top",
+			"pins" : [
+				{
+					"name" : "o_RDATA[0]",
+					"strict" : false
+				},
+				{
+					"name" : "o_RDATA[1]",
+					"strict" : false
+				},
+				{
+					"name" : "o_RDATA[2]",
+					"strict" : false
+				},
+				{
+					"name" : "o_RDATA[3]",
+					"strict" : false
+				},
+				{
+					"name" : "o_RDATA[4]",
+					"strict" : false
+				},
+				{
+					"name" : "o_RDATA[5]",
+					"strict" : false
+				},
+				{
+					"name" : "o_RDATA[6]",
+					"strict" : false
+				},
+				{
+					"name" : "o_RDATA[7]",
+					"strict" : false
+				},
+				{
+					"name" : "i_RADDR3",
+					"strict" : false
+				},
+				{
+					"name" : "i_RADDR2",
+					"strict" : false
+				},
+				{
+					"name" : "i_REN",
+					"strict" : false
+				},
+				{
+					"name" : "i_WDATA[0]",
+					"strict" : false
+				},
+				{
+					"name" : "i_CLK",
+					"strict" : false
+				},
+				{
+					"name" : "i_CLR",
+					"strict" : false
+				},
+				{
+					"name" : "i_WADDR1",
+					"strict" : false
+				},
+				{
+					"name" : "i_WADDR0",
+					"strict" : false
+				},
+				{
+					"name" : "i_WEN",
+					"strict" : false
+				},
+				{
+					"name" : "i_WDATA[1]",
+					"strict" : false
+				},
+				{
+					"name" : "i_WDATA[2]",
+					"strict" : false
+				},
+				{
+					"name" : "i_WDATA[3]",
+					"strict" : false
+				},
+				{
+					"name" : "i_WDATA[4]",
+					"strict" : false
+				},
+				{
+					"name" : "i_WDATA[5]",
+					"strict" : false
+				},
+				{
+					"name" : "i_WDATA[6]",
+					"strict" : false
+				},
+				{
+					"name" : "i_WDATA[7]",
+					"strict" : false
+				}
+			]
+		}
+	]
+}

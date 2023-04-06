@@ -1,0 +1,172 @@
+m255
+K4
+z2
+!s11f vlog 2020.1 2020.02, Feb 28 2020
+!s11e vcom 2020.1 2020.02, Feb 28 2020
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 dC:/Workspace/projeto2
+Emux_op
+Z1 w1604967399
+Z2 DPx3 std 6 textio 0 22 zE1`LPoLg^DX3Oz^4Fj1K3
+Z3 DPx4 ieee 14 std_logic_1164 0 22 cVAk:aDinOX8^VGI1ekP<3
+!i122 11
+R0
+Z4 8mux.vhd
+Z5 Fmux.vhd
+l0
+L4 1
+V4g?F`USVQeZM5VhEl9P0a0
+!s100 BU<=cTMCEW7Ab@dEADF;O3
+Z6 OV;C;2020.1;71
+32
+Z7 !s110 1605052617
+!i10b 1
+Z8 !s108 1605052616.000000
+Z9 !s90 -reportprogress|300|mux.vhd|reg.vhd|tb_projeto2.vhd|ula.vhd|
+Z10 !s107 ula.vhd|tb_projeto2.vhd|reg.vhd|mux.vhd|
+!i113 1
+Z11 tExplicit 1 CvgOpt 0
+Aarch_1
+R2
+R3
+Z12 DEx4 work 6 mux_op 0 22 4g?F`USVQeZM5VhEl9P0a0
+!i122 11
+l20
+Z13 L19 31
+Z14 V=?5_PGHSQZ?0z^BO;5mBA0
+Z15 !s100 ddW`IjAZVl7DE4j:1Sk3Y0
+R6
+32
+R7
+!i10b 1
+R8
+R9
+R10
+!i113 1
+R11
+Eprojeto2
+Z16 w1605052492
+Z17 DPx4 ieee 15 std_logic_arith 0 22 [G314=:2zXJ`VORJe1J@Z1
+Z18 DPx4 ieee 18 std_logic_unsigned 0 22 ;eZjO2D4ZDz<]0>8AL<ne1
+R2
+R3
+!i122 11
+R0
+Z19 8ula.vhd
+Z20 Fula.vhd
+l0
+L5 1
+VUU_08cZc1YFlXH=d;5H[j3
+!s100 L3;jSRi<2cMMOeQnfg>i?0
+R6
+32
+R7
+!i10b 1
+R8
+R9
+R10
+!i113 1
+R11
+Aarch_3
+R17
+R18
+R2
+R3
+Z21 DEx4 work 8 projeto2 0 22 UU_08cZc1YFlXH=d;5H[j3
+!i122 11
+l44
+L17 58
+VDFN_aUBn`W02<o<HoJO5@1
+!s100 bCFAgT;=HYO1GH7Vz]84_1
+R6
+32
+R7
+!i10b 1
+R8
+R9
+R10
+!i113 1
+R11
+Ereg_op
+Z22 w1605048171
+R2
+R3
+!i122 11
+R0
+Z23 8reg.vhd
+Z24 Freg.vhd
+l0
+L4 1
+VoanYQfz]VXd?n4_7eeG[Z3
+!s100 4d=]bdnWEJ;JfiE@]jfeP2
+R6
+32
+R7
+!i10b 1
+R8
+R9
+R10
+!i113 1
+R11
+Aarch_2
+R2
+R3
+Z25 DEx4 work 6 reg_op 0 22 oanYQfz]VXd?n4_7eeG[Z3
+!i122 11
+l13
+Z26 L12 15
+Z27 V>QWGOK0Jz?h5RcFN>S]_N1
+Z28 !s100 S5XAIb]WZZ_Ne]]NV1U^`3
+R6
+32
+R7
+!i10b 1
+R8
+R9
+R10
+!i113 1
+R11
+Etb_projeto2
+Z29 w1605052128
+R2
+R3
+!i122 11
+R0
+Z30 8tb_projeto2.vhd
+Z31 Ftb_projeto2.vhd
+l0
+L4 1
+Va`hSc;iz560cbSHVW9icW1
+!s100 c<4X`G0cbGG9^?dV]A`LL1
+R6
+32
+R7
+!i10b 1
+R8
+R9
+R10
+!i113 1
+R11
+Atb
+R2
+R3
+Z32 DEx4 work 11 tb_projeto2 0 22 a`hSc;iz560cbSHVW9icW1
+!i122 11
+l25
+Z33 L8 116
+Z34 VnKXm74hI=:o75UX2DJiHT3
+Z35 !s100 mIfzj_@0:<<i:3lzVN;i53
+R6
+32
+R7
+!i10b 1
+R8
+R9
+R10
+!i113 1
+R11

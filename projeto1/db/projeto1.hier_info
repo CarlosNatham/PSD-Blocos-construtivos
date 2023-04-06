@@ -1,0 +1,87 @@
+|projeto1
+i_CLR => logic_comb:u_0.i_CLR
+i_SET => logic_comb:u_0.i_SET
+i_LD => logic_comb:u_0.i_LD
+i_SHL => logic_comb:u_0.i_SHL
+i_SHLIN => reg:u_1.i_SHLIN
+i_CLK => reg:u_1.i_CLK
+i_I0 => reg:u_1.i_I0
+i_I1 => reg:u_1.i_I1
+i_I2 => reg:u_1.i_I2
+i_I3 => reg:u_1.i_I3
+i_I4 => reg:u_1.i_I4
+i_I5 => reg:u_1.i_I5
+i_I6 => reg:u_1.i_I6
+i_I7 => reg:u_1.i_I7
+o_Q0 << reg:u_1.o_Q0
+o_Q1 << reg:u_1.o_Q1
+o_Q2 << reg:u_1.o_Q2
+o_Q3 << reg:u_1.o_Q3
+o_Q4 << reg:u_1.o_Q4
+o_Q5 << reg:u_1.o_Q5
+o_Q6 << reg:u_1.o_Q6
+o_Q7 << reg:u_1.o_Q7
+
+
+|projeto1|logic_comb:u_0
+i_CLR => o_S0.OUTPUTSELECT
+i_CLR => o_S1.OUTPUTSELECT
+i_CLR => o_S2.OUTPUTSELECT
+i_SET => o_S0.OUTPUTSELECT
+i_SET => o_S1.OUTPUTSELECT
+i_SET => o_S2.DATAA
+i_LD => o_S0.DATAA
+i_LD => o_S1.OUTPUTSELECT
+i_SHL => o_S1.DATAA
+o_S0 <= o_S0.DB_MAX_OUTPUT_PORT_TYPE
+o_S1 <= o_S1.DB_MAX_OUTPUT_PORT_TYPE
+o_S2 <= o_S2.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|projeto1|reg:u_1
+i_S0 => process_0.IN0
+i_S0 => process_0.IN0
+i_S0 => process_0.IN0
+i_S0 => process_0.IN0
+i_S1 => process_0.IN1
+i_S1 => process_0.IN1
+i_S1 => process_0.IN1
+i_S1 => process_0.IN1
+i_S2 => process_0.IN1
+i_S2 => process_0.IN1
+i_S2 => process_0.IN1
+i_S2 => process_0.IN1
+i_SHLIN => ~NO_FANOUT~
+i_CLK => o_Q7~reg0.CLK
+i_CLK => o_Q6~reg0.CLK
+i_CLK => o_Q5~reg0.CLK
+i_CLK => o_Q4~reg0.CLK
+i_CLK => o_Q3~reg0.CLK
+i_CLK => o_Q2~reg0.CLK
+i_CLK => o_Q1~reg0.CLK
+i_CLK => o_Q0~reg0.CLK
+i_I0 => o_Q0.DATAB
+i_I1 => o_Q0.DATAB
+i_I1 => o_Q1.DATAB
+i_I2 => o_Q1.DATAB
+i_I2 => o_Q2.DATAB
+i_I3 => o_Q2.DATAB
+i_I3 => o_Q3.DATAB
+i_I4 => o_Q3.DATAB
+i_I4 => o_Q4.DATAB
+i_I5 => o_Q4.DATAB
+i_I5 => o_Q5.DATAB
+i_I6 => o_Q5.DATAB
+i_I6 => o_Q6.DATAB
+i_I7 => o_Q6.DATAB
+i_I7 => o_Q7.DATAB
+o_Q0 <= o_Q0~reg0.DB_MAX_OUTPUT_PORT_TYPE
+o_Q1 <= o_Q1~reg0.DB_MAX_OUTPUT_PORT_TYPE
+o_Q2 <= o_Q2~reg0.DB_MAX_OUTPUT_PORT_TYPE
+o_Q3 <= o_Q3~reg0.DB_MAX_OUTPUT_PORT_TYPE
+o_Q4 <= o_Q4~reg0.DB_MAX_OUTPUT_PORT_TYPE
+o_Q5 <= o_Q5~reg0.DB_MAX_OUTPUT_PORT_TYPE
+o_Q6 <= o_Q6~reg0.DB_MAX_OUTPUT_PORT_TYPE
+o_Q7 <= o_Q7~reg0.DB_MAX_OUTPUT_PORT_TYPE
+
+

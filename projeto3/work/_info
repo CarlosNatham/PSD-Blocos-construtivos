@@ -1,0 +1,362 @@
+m255
+K4
+z2
+!s11e vcom 2020.1 2020.02, Feb 28 2020
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+dC:/intelFPGA_lite/20.1
+Emux8_1
+Z0 w1604934518
+Z1 DPx3 std 6 textio 0 22 zE1`LPoLg^DX3Oz^4Fj1K3
+Z2 DPx4 ieee 14 std_logic_1164 0 22 cVAk:aDinOX8^VGI1ekP<3
+!i122 13
+Z3 dC:/Workspace/projeto3
+Z4 8mux8_1.vhd
+Z5 Fmux8_1.vhd
+l0
+L4 1
+VaT85b35gk^Z>L=fI4`z7[0
+!s100 ;nUz8b1jM9ShX?_e7>2kM1
+Z6 OV;C;2020.1;71
+32
+Z7 !s110 1605054977
+!i10b 1
+Z8 !s108 1605054977.000000
+Z9 !s90 -reportprogress|300|mux8_1.vhd|projeto3.vhd|read_decoder.vhd|reg_1.vhd|reg_2.vhd|reg_3.vhd|reg_4.vhd|tb_projeto3.vhd|write_decoder.vhd|
+Z10 !s107 write_decoder.vhd|tb_projeto3.vhd|reg_4.vhd|reg_3.vhd|reg_2.vhd|reg_1.vhd|read_decoder.vhd|projeto3.vhd|mux8_1.vhd|
+!i113 1
+Z11 tExplicit 1 CvgOpt 0
+Aarch_7
+R1
+R2
+Z12 DEx4 work 6 mux8_1 0 22 aT85b35gk^Z>L=fI4`z7[0
+!i122 13
+l17
+Z13 L16 15
+Z14 Vh3YO=RBO`74FRaJzekneJ0
+Z15 !s100 MA]P8g_0oCkXSUh5;gM0Y0
+R6
+32
+R7
+!i10b 1
+R8
+R9
+R10
+!i113 1
+R11
+Eprojeto3
+Z16 w1605053665
+R1
+R2
+!i122 13
+R3
+Z17 8projeto3.vhd
+Z18 Fprojeto3.vhd
+l0
+L4 1
+VI8gOh33^L:l76L90LDPFK3
+!s100 JYX:Da63^EgnciJaQCI^M2
+R6
+32
+R7
+!i10b 1
+R8
+R9
+R10
+!i113 1
+R11
+Aarch_8
+R1
+R2
+Z19 DEx4 work 8 projeto3 0 22 I8gOh33^L:l76L90LDPFK3
+!i122 13
+l86
+Z20 L17 122
+Z21 V1_Vd2j5m5mf;J2U:^iXPN0
+Z22 !s100 UfcVnoW69@McFBg0SgdLn1
+R6
+32
+R7
+!i10b 1
+R8
+R9
+R10
+!i113 1
+R11
+Eread_decoder
+Z23 w1604932440
+R1
+R2
+!i122 13
+R3
+Z24 8read_decoder.vhd
+Z25 Fread_decoder.vhd
+l0
+L4 1
+VER@d3z^MOl7N]]?9aFe;f1
+!s100 fA7MS=]GcN^Yo3CZf:ndL3
+R6
+32
+R7
+!i10b 1
+R8
+R9
+R10
+!i113 1
+R11
+Aarch_6
+R1
+R2
+Z26 DEx4 work 12 read_decoder 0 22 ER@d3z^MOl7N]]?9aFe;f1
+!i122 13
+l15
+Z27 L14 34
+Z28 VWQ^`4jQ?PH@6Z[]J:<CQU0
+Z29 !s100 ZdeY<L7T;6`l2SRIkibBl3
+R6
+32
+R7
+!i10b 1
+R8
+R9
+R10
+!i113 1
+R11
+Ereg_1
+Z30 w1605053420
+R1
+R2
+!i122 13
+R3
+Z31 8reg_1.vhd
+Z32 Freg_1.vhd
+l0
+L4 1
+V6Pj9`7L:UZZj9[SPHA:JX3
+!s100 Lb5ncQg;[eozmlP0I6Ci]3
+R6
+32
+R7
+!i10b 1
+R8
+R9
+R10
+!i113 1
+R11
+Aarch_2
+R1
+R2
+Z33 DEx4 work 5 reg_1 0 22 6Pj9`7L:UZZj9[SPHA:JX3
+!i122 13
+l13
+Z34 L12 15
+Z35 VhMSaM9LFL<AO8MkOQn:N83
+Z36 !s100 RMGO[BCgck0d>cjY2DR3A3
+R6
+32
+R7
+!i10b 1
+R8
+R9
+R10
+!i113 1
+R11
+Ereg_2
+Z37 w1605053372
+R1
+R2
+!i122 13
+R3
+Z38 8reg_2.vhd
+Z39 Freg_2.vhd
+l0
+L4 1
+VGRC6edK]`2Zz]``Pl2mbH2
+!s100 h5Rf6z;4d[Jg1=3XKPAOV0
+R6
+32
+R7
+!i10b 1
+R8
+R9
+R10
+!i113 1
+R11
+Aarch_3
+R1
+R2
+Z40 DEx4 work 5 reg_2 0 22 GRC6edK]`2Zz]``Pl2mbH2
+!i122 13
+l13
+R34
+Z41 V;cG_EWe@BZdX4]aPVXaUc3
+Z42 !s100 WGRWhnSfkY6L0cib`HY?A2
+R6
+32
+R7
+!i10b 1
+R8
+R9
+R10
+!i113 1
+R11
+Ereg_3
+Z43 w1605053376
+R1
+R2
+!i122 13
+R3
+Z44 8reg_3.vhd
+Z45 Freg_3.vhd
+l0
+L4 1
+VFYh2K:F4?nENoi?nOfI4n2
+!s100 CCY8^3]a^c<llOIm?EKKh0
+R6
+32
+R7
+!i10b 1
+R8
+R9
+R10
+!i113 1
+R11
+Aarch_4
+R1
+R2
+Z46 DEx4 work 5 reg_3 0 22 FYh2K:F4?nENoi?nOfI4n2
+!i122 13
+l13
+R34
+Z47 V_]X?bCiAYjjEj0N3UkDz<1
+Z48 !s100 cYBjWGl[^VA@9Oj[OQEUl0
+R6
+32
+R7
+!i10b 1
+R8
+R9
+R10
+!i113 1
+R11
+Ereg_4
+Z49 w1605053490
+R1
+R2
+!i122 13
+R3
+Z50 8reg_4.vhd
+Z51 Freg_4.vhd
+l0
+L4 1
+V8R><UX`?9;j`LF9];];3b3
+!s100 d9_eW1Dch`ebd@4;f0lUX0
+R6
+32
+R7
+!i10b 1
+R8
+R9
+R10
+!i113 1
+R11
+Aarch_5
+R1
+R2
+Z52 DEx4 work 5 reg_4 0 22 8R><UX`?9;j`LF9];];3b3
+!i122 13
+l13
+R34
+Z53 VNjoM3A?AMH]ZfjjJXYCEm1
+Z54 !s100 >@YFALSz7>Xg8;zo[@VX<3
+R6
+32
+R7
+!i10b 1
+R8
+R9
+R10
+!i113 1
+R11
+Etb_projeto3
+Z55 w1605054857
+R1
+R2
+!i122 13
+R3
+Z56 8tb_projeto3.vhd
+Z57 Ftb_projeto3.vhd
+l0
+L4 1
+VHkmkzE0@5flb4mh_z2H=T2
+!s100 Qfd]4kS=egdmES42B?RHG3
+R6
+32
+R7
+!i10b 1
+R8
+R9
+R10
+!i113 1
+R11
+Atb
+R1
+R2
+Z58 DEx4 work 11 tb_projeto3 0 22 HkmkzE0@5flb4mh_z2H=T2
+!i122 13
+l26
+Z59 L8 74
+Z60 V=Dhz`g15QWMjQT>iX_mJj0
+Z61 !s100 j]HP8>P3e?1XZjn[QTWgO2
+R6
+32
+R7
+!i10b 1
+R8
+R9
+R10
+!i113 1
+R11
+Ewrite_decoder
+Z62 w1604863615
+R1
+R2
+!i122 13
+R3
+Z63 8write_decoder.vhd
+Z64 Fwrite_decoder.vhd
+l0
+L4 1
+V1X>4>aaXNh<z[AbY5W3hm0
+!s100 TJGkf`jCFiNI?oYJB_oU`3
+R6
+32
+R7
+!i10b 1
+R8
+R9
+R10
+!i113 1
+R11
+Aarch_1
+R1
+R2
+Z65 DEx4 work 13 write_decoder 0 22 1X>4>aaXNh<z[AbY5W3hm0
+!i122 13
+l15
+R27
+Z66 VI_BYSeWQkeCIGA<7;96650
+Z67 !s100 Vl6@818deN9DO<[MCi;0E3
+R6
+32
+R7
+!i10b 1
+R8
+R9
+R10
+!i113 1
+R11

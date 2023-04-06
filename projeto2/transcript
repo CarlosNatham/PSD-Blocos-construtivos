@@ -1,0 +1,53 @@
+# Project file C:/Workspace/projeto2/tb_projeto2.mpf is write protected, data cannot be saved.
+# Unable to save project.
+vlog -work C:/Workspace/projeto2/work -refresh -force_refresh
+# ** Warning: (vlog-14) Failed to open "C:/Workspace/projeto2/tb_projeto2.mpf" specified by the MODELSIM environment variable.
+# No such file or directory. (errno = ENOENT)
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 12:52:46 on Nov 10,2020
+# vlog -reportprogress 300 -work C:/Workspace/projeto2/work -refresh -force_refresh 
+# -- Skipping entity mux_op
+# -- Skipping entity projeto2
+# -- Skipping entity reg_op
+# -- Skipping entity tb_projeto2
+# End time: 12:52:46 on Nov 10,2020, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 1
+vcom -work C:/Workspace/projeto2/work -refresh -force_refresh
+# ** Warning: (vcom-14) Failed to open "C:/Workspace/projeto2/tb_projeto2.mpf" specified by the MODELSIM environment variable.
+# No such file or directory. (errno = ENOENT)
+# Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 12:52:46 on Nov 10,2020
+# vcom -reportprogress 300 -work C:/Workspace/projeto2/work -refresh -force_refresh 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling entity mux_op
+# -- Compiling architecture arch_1 of mux_op
+# -- Loading package std_logic_arith
+# -- Loading package STD_LOGIC_UNSIGNED
+# -- Compiling entity projeto2
+# -- Compiling architecture arch_3 of projeto2
+# -- Compiling entity reg_op
+# -- Compiling architecture arch_2 of reg_op
+# -- Compiling entity tb_projeto2
+# -- Compiling architecture tb of tb_projeto2
+# End time: 12:52:46 on Nov 10,2020, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 1
+vsim tb_projeto2
+# ** Warning: (vsim-14) Failed to open "C:/Workspace/projeto2/tb_projeto2.mpf" specified by the MODELSIM environment variable.
+# No such file or directory. (errno = ENOENT)
+# vsim tb_projeto2 
+# Start time: 12:52:53 on Nov 10,2020
+# ** Error: (vsim-7) Failed to open ini file "C:/Workspace/projeto2/tb_projeto2.mpf" in read mode.
+# Invalid argument. (errno = EINVAL)
+# ** Error: (vsim-7) Failed to open ini file "C:/Workspace/projeto2/tb_projeto2.mpf" in read mode.
+# Invalid argument. (errno = EINVAL)
+# ** Error (suppressible): (vsim-19) Failed to access library 'std' at "std".
+# No such file or directory. (errno = ENOENT)
+# Error loading design
+# Project file C:/Workspace/projeto2/tb_projeto2.mpf is write protected, data cannot be saved.
+# Unable to save project.
+# End time: 12:52:54 on Nov 10,2020, Elapsed time: 0:00:01
+# Errors: 3, Warnings: 3
+# Project file C:/Workspace/projeto2/tb_projeto2.mpf is write protected, data cannot be saved.
+# Unable to save project.

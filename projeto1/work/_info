@@ -1,0 +1,168 @@
+m255
+K4
+z2
+!s11f vlog 2020.1 2020.02, Feb 28 2020
+!s11e vcom 2020.1 2020.02, Feb 28 2020
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+dC:/intelFPGA_lite/20.1
+Elogic_comb
+Z0 w1604966387
+Z1 DPx3 std 6 textio 0 22 zE1`LPoLg^DX3Oz^4Fj1K3
+Z2 DPx4 ieee 14 std_logic_1164 0 22 cVAk:aDinOX8^VGI1ekP<3
+!i122 18
+Z3 dC:/Workspace/projeto1
+Z4 8logic_comb.vhd
+Z5 Flogic_comb.vhd
+l0
+L4 1
+V4O=aZRJBklmOd3`mSi]Tg0
+!s100 gcI1TWMW4@MaiX__6=^Lm1
+Z6 OV;C;2020.1;71
+32
+Z7 !s110 1605049731
+!i10b 1
+Z8 !s108 1605049731.000000
+Z9 !s90 -reportprogress|300|logic_comb.vhd|projeto_1.vhd|reg.vhd|tb_projeto1.vhd|
+Z10 !s107 tb_projeto1.vhd|reg.vhd|projeto_1.vhd|logic_comb.vhd|
+!i113 1
+Z11 tExplicit 1 CvgOpt 0
+Aarch_1
+R1
+R2
+Z12 DEx4 work 10 logic_comb 0 22 4O=aZRJBklmOd3`mSi]Tg0
+!i122 18
+l15
+Z13 L14 32
+Z14 VJ4Ca<K9FAbQ3C:RFXT1c21
+Z15 !s100 =N0HBT3_?1_G5SzJKB>oG0
+R6
+32
+R7
+!i10b 1
+R8
+R9
+R10
+!i113 1
+R11
+Eprojeto1
+Z16 w1604966567
+R1
+R2
+!i122 18
+R3
+Z17 8projeto_1.vhd
+Z18 Fprojeto_1.vhd
+l0
+L4 1
+Vi0M8Wk[<FJ=K;aUmPX7f80
+!s100 ^Q8JUPmU_inZQ:YX[^^a^0
+R6
+32
+R7
+!i10b 1
+R8
+R9
+R10
+!i113 1
+R11
+Aarch_3
+R1
+R2
+Z19 DEx4 work 8 projeto1 0 22 i0M8Wk[<FJ=K;aUmPX7f80
+!i122 18
+l67
+Z20 L29 71
+Z21 Voh`3D:N2Wj=Zg34@jGV7=0
+Z22 !s100 Hi?U;HZVRPdTn:X^`D[fc2
+R6
+32
+R7
+!i10b 1
+R8
+R9
+R10
+!i113 1
+R11
+Ereg
+Z23 w1605048422
+R1
+R2
+!i122 18
+R3
+Z24 8reg.vhd
+Z25 Freg.vhd
+l0
+L4 1
+VYob<MPSX2O`RV1iE2e>`k0
+!s100 2l0PaXzb1Z?h7BjYz4>4m2
+R6
+32
+R7
+!i10b 1
+R8
+R9
+R10
+!i113 1
+R11
+Aarch_2
+R1
+R2
+Z26 DEx4 work 3 reg 0 22 Yob<MPSX2O`RV1iE2e>`k0
+!i122 18
+l30
+Z27 L28 53
+Z28 V0]4Ah`3>]US>E3Q;>JOd40
+Z29 !s100 _D>^76<DZGUIAg3]8ZRmU0
+R6
+32
+R7
+!i10b 1
+R8
+R9
+R10
+!i113 1
+R11
+Etb_projeto1
+Z30 w1605049692
+R1
+R2
+!i122 18
+R3
+Z31 8tb_projeto1.vhd
+Z32 Ftb_projeto1.vhd
+l0
+L4 1
+V`Mh0]nQTJEfYR2JRIUH2f3
+!s100 _2L52]czm3MT3E4RQfNDY0
+R6
+32
+R7
+!i10b 1
+R8
+R9
+R10
+!i113 1
+R11
+Atb
+R1
+R2
+Z33 DEx4 work 11 tb_projeto1 0 22 `Mh0]nQTJEfYR2JRIUH2f3
+!i122 18
+l37
+L8 207
+VQF3An?DeJnVj0XOaH:ZVP2
+!s100 GFn_QkBXMPWDz]zck02KE2
+R6
+32
+R7
+!i10b 1
+R8
+R9
+R10
+!i113 1
+R11

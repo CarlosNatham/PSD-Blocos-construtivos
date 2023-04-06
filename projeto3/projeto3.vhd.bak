@@ -1,0 +1,71 @@
+library IEEE;
+use IEEE.std_logic_1164.all;
+
+entity projeto3 is 
+port(	i_WDATA:		in std_logic_vector (7 downto 0);	-- entrada palavra
+		i_WADDR0:	in std_logic;								-- entrada de seleção 1
+		i_WADDR1:	in std_logic;								-- entrada de seleção 2
+		i_WEN:		in std_logic;								-- enable do write
+		i_RADDR2:	in std_logic;								-- entrada de seleção 3
+		i_RADDR3:	in std_logic;								-- entrada de seleção 4
+		o_RDATA:		out std_logic_vector (7 downto 0));	-- saída palavra
+end projeto3;
+
+architecture arch_8 of projeto3 is
+
+component write_decoder is
+port(	i_I0:	in std_logic;	-- entrada I0
+		i_I1:	in std_logic;	-- entrada I1
+		i_EN:	in std_logic;	-- enable
+		o_D0:	out std_logic;	-- saída D0
+		o_D1: out std_logic;	-- saída D1
+		o_D2: out std_logic;	-- saída D2
+		o_D3: out std_logic);-- saída D3
+end component;
+
+component reg_1 is
+port(	i_I1:		in std_logic_vector (7 downto 0);	-- entrada regsitrador
+		i_EN1:	in std_logic;								-- enable
+		o_Q1:		out std_logic_vector (7 downto 0));	-- saída reg
+end component;
+
+component reg_2 is
+port(	i_I2:		in std_logic_vector (7 downto 0);	-- entrada regsitrador
+		i_EN2:	in std_logic;								-- enable
+		o_Q2:		out std_logic_vector (7 downto 0));	-- saída reg
+end component;
+
+component reg_3 is
+port(	i_I3:		in std_logic_vector (7 downto 0);	-- entrada regsitrador
+		i_EN3:	in std_logic;								-- enable
+		o_Q3:		out std_logic_vector (7 downto 0));	-- saída reg
+end component;
+
+component reg_4 is
+port(	i_I4:		in std_logic_vector (7 downto 0);	-- entrada regsitrador
+		i_EN4:	in std_logic;								-- enable
+		o_Q4:		out std_logic_vector (7 downto 0));	-- saída reg
+end component;
+
+component read_decoder is
+port(	i_I2:	in std_logic;	-- entrada I0
+		i_I3:	in std_logic;	-- entrada I1
+		i_EN:	in std_logic;	-- enable
+		o_D4:	out std_logic;	-- saída D0
+		o_D5: out std_logic;	-- saída D1
+		o_D6: out std_logic;	-- saída D2
+		o_D7: out std_logic);-- saída D3
+end component;
+
+component mux8_1 is
+port(	i_A:	in std_logic_vector (7 downto 0);	-- entrada a
+		i_B:	in std_logic_vector (7 downto 0);	-- entrada b
+		i_C:	in std_logic_vector (7 downto 0);	-- entrada c
+		i_D:	in std_logic_vector (7 downto 0);	-- entrada d
+		i_E:	in std_logic;								-- entrada e
+		i_F:	in std_logic;								-- entrada f
+		i_G:	in std_logic;								-- entrada g
+		i_H:	in std_logic;								-- entrada h
+		o_I:	out std_logic_vector (7 downto 0));	-- saida i
+end component;
+

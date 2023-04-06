@@ -1,0 +1,111 @@
+library IEEE;
+use IEEE.std_logic_1164.all;
+
+entity reg is
+port(	i_CLR:	in std_logic;		
+		i_SET:	in std_logic;
+		i_LD:		in std_logic;
+		i_SHL:	in std_logic;
+		i_SHLIN:	in std_logic;
+		i_I0:		in std_logic;
+		i_I1:		in std_logic;
+		i_I2:		in std_logic;
+		i_I3:		in std_logic;
+		i_I4:		in std_logic;
+		i_I5:		in std_logic;
+		i_I6:		in std_logic;
+		i_I7:		in std_logic;
+		o_Q0:		out std_logic;
+		o_Q1:		out std_logic;
+		o_Q2:		out std_logic;
+		o_Q3:		out std_logic;
+		o_Q4:		out std_logic;
+		o_Q5:		out std_logic;
+		o_Q6:		out std_logic;
+		o_Q7:		out std_logic);
+end reg;
+
+architecture arch_2 of reg is
+	
+	component logic_comb is
+	port(	i_CLR:	in std_logic;		
+			i_SET:	in std_logic;
+			i_LD:		in std_logic;
+			i_SHL:	in std_logic;
+			o_S0:		out std_logic;
+			o_S1:		out std_logic;
+			o_S2:		out std_logic);
+	end component;
+	
+	signal w_S0, w_S1, w_S2: std_logic;
+	signal w_I0, w_I1, w_I2, w_I3, w_I4, w_I5, w_I6, w_I7: std_logic;
+	
+	begin 
+	
+	u_0: logic_comb port map(	i_CLR => i_CLR,
+										i_SET => i_SET,
+										i_LD 	=>	i_LD,
+										i_SHL	=> i_SHL,
+										o_S0 	=>	w_S0,
+										o_S1	=> w_S1,
+										o_S2	=> w_S2);
+										
+	process(i_I0, i_I1, i_I2, i_I3, i_I4, i_I5, i_I6, i_I7, w_S0, w_S1, w_S2)
+		begin
+		w_I0 <= i_I0;
+		w_I1 <= i_I1;
+		w_I2 <= i_I2;
+		w_I3 <= i_I3;
+		w_I4 <= i_I4;
+		w_I5 <= i_I5;
+		w_I6 <= i_I6;
+		w_I7 <= i_I7;
+		
+		if(w_S0 = '1' and w_S1 = '1' and w_S2 = '0') then
+			o_Q0	<= '0';
+			o_Q1	<= '0';
+			o_Q2	<= '0';
+			o_Q3	<= '0';
+			o_Q4	<= '0';
+			o_Q5	<= '0';
+			o_Q6	<= '0';
+			o_Q7	<= '0';
+		elsif(w_S0 = '0' and w_S1 = '0' and w_S2 = '1') then
+			o_Q0	<= '1';
+			o_Q1	<= '1';
+			o_Q2	<= '1';
+			o_Q3	<= '1';
+			o_Q4	<= '1';
+			o_Q5	<= '1';
+			o_Q6	<= '1';
+			o_Q7	<= '1';
+		elsif(w_S0 = '1' and w_S1 = '0' and w_S2 = '0') then
+			o_Q0	<= w_I0;
+			o_Q1	<= w_I1;
+			o_Q2	<= w_I2;
+			o_Q3	<= w_I3;
+			o_Q4	<= w_I4;
+			o_Q5	<= w_I5;
+			o_Q6	<= w_I6;
+			o_Q7	<= w_I7;
+		elsif(w_S0 = '0' and w_S1 = '1' and w_S2 = '0') then
+			o_Q0	<= i_I1;
+			o_Q1	<= i_I2;
+			o_Q2	<= i_I3;
+			o_Q3	<= i_I4;
+			o_Q4	<= i_I5;
+			o_Q5	<= i_I6;
+			o_Q6	<= i_I7;
+			o_Q7	<= '0';
+		elsif(w_S0 = '0' and w_S1 = '0' and w_S2 = '0') then
+			o_Q0	<= i_I0;
+			o_Q1	<= i_I1;
+			o_Q2	<= i_I2;
+			o_Q3	<= i_I3;
+			o_Q4	<= i_I4;
+			o_Q5	<= i_I5;
+			o_Q6	<= i_I6;
+			o_Q7	<= i_I7;
+		end if;
+	end process;
+end arch_2;

@@ -1,0 +1,12 @@
+library ieee;
+use ieee.std_logic_1164.all;
+
+entity ula_op is
+port( i_A:		in std_logic_vector (7 downto 0);	-- entrada A
+		i_B:		in std_logic_vector (7 downto 0);	-- entrada B
+		i_X:		in std_logic;								-- entrada X
+		i_Y:		in std_logic;								-- entrada Y
+		i_Z:		in std_logic;								-- entrada Z
+		i_EN:		in std_logic;								-- enable
+		i_CLK:	in std_logic;								-- clock
+		o_LED:	out std_logic_vector (7 downto 0);	-- saída ula

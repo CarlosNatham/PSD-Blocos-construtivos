@@ -1,0 +1,40 @@
+library IEEE;
+use IEEE.std_logic_1164.all;
+
+entity logic_comb is
+port(	i_CLR:	in std_logic;		
+		i_SET:	in std_logic;
+		i_ID:		in std_logic;
+		i_SHL:	in std_logic;
+		o_S0:		out std_logic;
+		o_S1:		out std_logic;
+		o_S2:		out std_logic);
+end logic_comb;
+
+architecture arch_1 of logic_comb is
+	begin
+	process(i_CLR, i_SET, i_ID, i_SLH)
+		begin
+		if(i_CLR = '1') then
+			o_S0 <= '1';
+			o_S1 <= '1';
+			o_S2 <= '0';
+		elsif(i_SET = '1') then
+			o_S0 <= '0';
+			o_S1 <= '0';
+			o_S2 <= '1';
+		elsif(i_ID = '1') then
+			o_S0 <= '1';
+			o_S1 <= '0';
+			o_S2 <= '0';
+		elsif(i_SLH = '1') then
+			o_S0 <= '0';
+			o_S1 <= '1';
+			o_S2 <= '0';
+		else
+			o_S0 <= '0';
+			o_S1 <= '0';
+			o_S2 <= '0';
+		end if;
+	end process;
+end arch_1;
